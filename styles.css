@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap');
+h1.titulo-evento{
+    font-family: 'Bebas Neue', cursive;
+    color: #a27f59;
+}
+h2.inscripcion{
+    font-family: 'Arapey', serif;
+}
+.img-logo{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+.label-form{
+    font-family: 'Gentium Book Basic', serif;
+}
+input.button-send{
+    margin: auto;
+    display: block;
+}
+.btn-outline-success {
+    color:#a27f59 !important;
+    border-color:#a27f59 !important;
+}
+.btn-outline-success:hover {
+    color:#fff !important;
+    background-color:#a27f59 !important;
+    border-color:#a27f59 !important;
+}
+.btn-check:focus+.btn-outline-success,
+.btn-outline-success:focus {
+ box-shadow:0 0 0 .25rem #a27f59 !important;
+}
+
+.p-err{
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1rem;
+}
+.ul-err{
+    list-style: none;
+}
+a.link{
+  color: #a27f59;  
+  text-decoration: none;
+}
+
+a.link:hover{
+    color: #816445; 
+}
